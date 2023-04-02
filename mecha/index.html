@@ -3,9 +3,9 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>Unity WebGL Player | Mecha</title>
-    <link rel="shortcut icon" href="favicon.ico">
-    <link rel="stylesheet" href="style.css">
+    <titleMecha - UnfinishedLair</title>
+    <link rel="shortcut icon" href="./favicon.ico">
+    <link rel="stylesheet" href="./style.css">
   </head>
   <body>
     <div id="unity-container" class="unity-desktop">
@@ -20,6 +20,7 @@
     </div>
     <div id="unity-footer">
       <div id="unity-webgl-logo"></div>
+      <div id="unity-fullscreen-button"></div>
     </div>
     <script>
       var container = document.querySelector("#unity-container");
@@ -53,7 +54,7 @@
         updateBannerVisibility();
       }
 
-      var buildUrl = ".";
+      var buildUrl = "Build";
       var loaderUrl = buildUrl + "/Builds.loader.js";
       var config = {
         dataUrl: buildUrl + "/Builds.data",
